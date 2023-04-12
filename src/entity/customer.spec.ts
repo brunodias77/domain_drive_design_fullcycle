@@ -1,7 +1,7 @@
 import Address from "./address";
-import Customer from "./custumer";
+import Customer from "./customer";
 
-describe("Customer unit tests", () => {
+describe("Teste unitarios do cliente", () => {
   it("should throw error when id is empty", () => {
     expect(() => new Customer("", "John")).toThrowError("Id is required");
   });
