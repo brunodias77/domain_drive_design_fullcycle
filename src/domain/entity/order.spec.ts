@@ -1,7 +1,7 @@
 import Order from "./order";
 import OrderItem from "./order_item";
 
-describe("Order unit tests", () => {
+describe("Testes unitarios de pedido", () => {
   it("deve lançar um erro quando o id está vazio", () => {
     expect(() => {
       let order = new Order("", "123", []);
